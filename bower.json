@@ -1,0 +1,26 @@
+{
+  "name": "fxos-physical-web",
+  "version": "0.0.0",
+  "description": "Walk up and use anything",
+  "authors": [
+    "G.C. Marty <edo999@gmail.com>"
+  ],
+  "homepage": "https://github.com/gmarty/fxos-physical-web",
+  "keywords": [
+    "Physical web",
+    "beacon"
+  ],
+  "license": "BSD-2-Clause",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fxos-mvc": "git@github.com:fxos/mvc.git",
+    "dns-sd.js": "git@github.com:justindarc/dns-sd.js"
+  }
+}

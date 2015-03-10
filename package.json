@@ -1,0 +1,25 @@
+{
+  "name": "fxos-physical-web",
+  "version": "0.0.0",
+  "description": "Walk up and use anything",
+  "author": "G.C. Marty <edo999@gmail.com>",
+  "scripts": {
+    "generate-icons": "inkscape -e app/img/icons/128.png -w 128 app/img/icon.svg;inkscape -e app/img/icons/512.png -w 512 app/img/icon.svg;inkscape -e app/img/icons/60.png -w 60 app/img/icon.svg;inkscape -e app/img/icons/16.png -w 16 app/img/icon.svg;inkscape -e app/img/icons/32.png -w 32 app/img/icon.svg;inkscape -e app/img/icons/48.png -w 48 app/img/icon.svg;inkscape -e app/img/icons/64.png -w 64 app/img/icon.svg;inkscape -e app/img/icons/90.png -w 90 app/img/icon.svg;inkscape -e app/img/icons/256.png -w 256 app/img/icon.svg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmarty/fxos-physical-web.git"
+  },
+  "keywords": [
+    "Physical web",
+    "beacon"
+  ],
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/gmarty/fxos-physical-web/issues"
+  },
+  "devDependencies": {
+    "fxos-build": "git://github.com/fxos/build#master",
+    "gulp": "~3.8.11"
+  }
+}
