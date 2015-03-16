@@ -9,3 +9,8 @@ Web](http://google.github.io/physical-web/).
 
 BLE is coming to Firefox OS, but is not yet available, so mDNS only will be
 used in the meantime.
+
+## More
+
+I wrote an article about the [Physical Web](http://gu.illau.me/posts/the-physical-web/)
+and my motivation for working on this app.
